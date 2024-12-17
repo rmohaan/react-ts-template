@@ -20,6 +20,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.13.0",
+    "typescript-eslint": "^8.18.1"
   }
 }

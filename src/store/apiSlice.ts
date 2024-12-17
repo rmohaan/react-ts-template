@@ -3,7 +3,7 @@ import { fetchDataFromApi } from '../utils/apiHelper';
 import type { User } from './types.js'; 
 
 interface ApiState {
-  data: any[];
+  data: User[];
   loading: boolean;
   error: string | null;
 }
