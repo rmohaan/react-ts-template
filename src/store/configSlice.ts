@@ -11,8 +11,8 @@ interface ConfigState {
 }
 
 const initialState: ConfigState = {
-    configs: [],
-}
+    configs: []
+};
 
 const configSlice = createSlice({
     name: 'config',
